@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot');
+    src: url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"),
+    url('../fonts/Yekan.woff2') format('woff2'),
+    url('../fonts/Yekan.woff') format('woff'),
+    url('../fonts/Yekan.ttf') format('truetype'),
+	url('../fonts/Yekan.otf') format('opentype'),
+    url('../fonts/Yekan.svg#Yekan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body *,
+#wpadminbar *,
+.rtl #wpadminbar * {
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	letter-spacing: 0 !important;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+keygen,
+blockquote cite,
+blockquote small{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+
+.main-navigation,
+.post-navigation,
+.widget .widget-title,
+.widget_recent_entries .post-date,
+.tagcloud a,
+.entry-title,
+.sticky-post,
+.comment-reply-link,
+.required,
+.site-footer .site-title,
+.site-footer .site-title:after,
+.post-password-form label,
+.main-navigation .menu-item-description,
+.post-navigation .meta-nav,
+.post-navigation .post-title,
+.pagination,
+.image-navigation,
+.comment-navigation,
+.site .skip-link,
+.logged-in .site .skip-link,
+.site-title,
+.site-description,
+.widget-title,
+.widget_calendar caption,
+.widget_rss .rss-date,
+.widget_rss cite,
+.author-heading,
+.entry-footer,
+.page-title,
+.page-links,
+.entry-caption,
+.comments-title,
+.comment-reply-title,
+.comment-metadata,
+.pingback .edit-link,
+.comment-list .reply a,
+.comment-form label,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.no-comments,
+.wp-caption-text,
+.gallery-caption,
+.widecolumn label,
+.widecolumn .mu_register label,
+.search-field,
+#wpadminbar{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+
+::-webkit-input-placeholder{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+
+::-webkit-input-placeholder{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+:-moz-placeholder{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+::-moz-placeholder{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+:-ms-input-placeholder{
+	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+	letter-spacing: 0 !important;
+}
+.wp-video-playlist{
+	direction: ltr;
+}
+
+.wp-playlist-tracks{
+	direction: rtl;
+}

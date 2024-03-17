@@ -1,86 +1,100 @@
-=== Free Farsi Theme for Farsi WordPress ===
-Contributors: parsmizban
-Donate link: https://parsmizban.com/
-Tags: persian font, farsi wordpress, persian wordpress, wordpress farsi, iran, iranian, rtl, fa_IR, فارسی, فونت فارسی, وردپرس فارسی, وردپرس, فارسی ساز
-Requires at least: 4.0
-Donate link: https://parsmizban.com
-Tested up to: 4.8
-Stable tag: 2.0
+=== RTL Localization & Fonts ===
+Contributors: dedidata, parsmizban, farhad0
+Tags: rtl, rtl support, right to left, rtl plugin, rtl theme
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.0
+Stable tag: 2.5.4
 License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Donate link: https://dedidata.com
 
-فارسی ساز رایگان قالب و پوسته وردپرس (قالب وردپرس رایگان)
+RTL Localization & Fonts
 
 == Description ==
+Easily make your themes compatible with right-to-left languages (RTL) and activate suitable fonts for them.
+This plugin makes WordPress themes compatible for Persian, Arabic and Hebrew languages, and sets a suitable font for them.
+Please note that your theme must support RTL (Right-to-Left).
+By using this plugin, you can freely download and install various WordPress themes and automatically make them compatible with RTL and languages such as Persian, Arabic, and Hebrew.
+Some of them include:
+WordPress E-Shop Theme
+WordPress E-Commerce Theme
+WordPress News Theme
+WordPress Corporate Theme
+WordPress One-Page Theme
 
-به صورت رایگان و سریع، قالب وردپرس دانلود نمائید و آن را فارسی کنید.
-این پلاگین، قالب های وردپرس را فارسی سازی و فونت فارسی را به آن اضافه می نماید.
-توجه نمائید که قالب شما باید از
-RTL
-پشتیبانی کند.
-با استفاده از این افزونه می توانید انواع قالب های وردپرس را به صورت رایگان دانلود نمائید و به صورت اتوماتیک فارسی سازی نمائید از جمله:
-قالب فروشگاهی وردپرس
-قالب خبری وردپرس
-قالب شرکتی وردپرس
-قالب تک صفحه ای وردپرس
+= Specifications =
 
-لیست قالب های سازگار با این افزونه به زودی منتشر می گردد.
+* Optimization and localization for RTL of the main site (Front-End)
+* Adding proper font to the main site (Front-End)
+* Optimization and localization of the administration for RTL (Dashboard | Back-End)
+* Adding proper font to the administration for RTL (Dashboard | Back-End)
+* Optimization of the administration editor
+* Adding a proper font to the administration editor
 
-= مشخصات =
-* بهینه سازی و فارسی سازی بخش اصلی سایت
-* افزودن فونت فارسی به بخش اصلی سایت
-* بهینه سازی و فارسی سازی بخش مدیریت
-* افزودن فونت فارسی به بخش مدیریت
-* بهینه سازی ویرایشگر بخش مدیریت
-* افزودن فونت فارسی به ویرایشگر بخش مدیریت
+Validated by:
+https://wpreadme.com/
+https://wordpress.org/plugins/developers/readme-validator
 
 == Installation ==
 
-= Minimum Requirements =
+### Minimum Requirements
 
-* WordPress 3.8 or greater
-* PHP version 5.2.4 or greater
-* MySQL version 5.0 or greater
+* WordPress 6.0 or greater
+* PHP 7.0 or greater is required (PHP 8.0 or greater is recommended)
+* MySQL 5.6 or greater, OR MariaDB version 10.1 or greater, is required.
 
-= Automatic installation =
+### You can install this plugin in two ways:
 
-Automatic installation is the easiest option as WordPress handles the file transfers itself and you don’t need to leave your web browser. To do an automatic install, log in to your WordPress dashboard, navigate to the Plugins menu and click Add New.
+= Automatic installation (Install from within WordPress) =
 
-In the search field type “Iran Post Shipping” and click Search Plugins. Once you’ve found our plugin you can view details about it such as the the point release, rating and description. Most importantly of course, you can install it by simply clicking “Install Now”.
+Automatic installation is the easiest option, WordPress will handles the file transfer, and you won’t need to leave your web browser.
+
+1. Log in to your WordPress dashboard
+2. Navigate to the Plugins menu within your dashboard
+3. click “Add New.”
+4. In the search field type the name of this plugin and then click “Search Plugins.”
+5. Once you’ve found us,  you can view details about it such as the point release, rating, and description.
+6. Most importantly of course, you can install it by! Click “Install Now,” and WordPress will take it from there.
+7. Activate the plugin from your Plugins page
 
 = Manual installation =
 
-The manual installation method involves downloading our plugin and uploading it to your webserver via your favourite FTP application. The WordPress codex contains [instructions on how to do this here](http://codex.wordpress.org/Managing_Plugins#Manual_Plugin_Installation).
+Manual installation method requires downloading the this plugin and uploading it to your web server via your favorite FTP application. The WordPress codex contains [instructions on how to do this here](https://wordpress.org/support/article/managing-plugins/#manual-plugin-installation).
 
-= Updating =
-
-Automatic updates should work like a charm; as always though, ensure you backup your site just in case.
-
-== Frequently Asked Questions ==
-
-= آیا این پلاگین تمامی قالب ها را فارسی می کند؟ =
-
-قالب هایی که از rtl پشتیبانی می کنند، به احتمال زیاد توسط این پلاگین بهینه شده و فارسی میشوند.
-
-= برای پشتیبانی باید به کدام سایت مراجعه کنیم؟ =
-
-پشتیبانی از طریق تالار گفتمان وب سایت پارس میزبان واقع در آدرس [پارس میزبان](https://parsmizban.com/ "پارس میزبان") می باشد.
-
-== Screenshots ==
-
-1. قالب فارسی شده و بهینه شده
-2. قالب فارسی شده و بهینه شده
-3. قالب فارسی شده و بهینه شده
-
-== Changelog ==
-
-= 2.0 =
-* امکان تعیین بارگذاری فونت ها
-
-= 1.0 =
-* نسخه اول پلاگین
+1. Download the plugin ZIP file and extract it
+2. Upload the extracted folder to the /wp-content/plugins/ directory
+3. Activate the plugin through the ‘Plugins’ menu in WordPress
 
 == Upgrade Notice ==
 
-= 1.0 =
-نسخه اول
+Automatic updates should work smoothly, but we still recommend you back up your site.
+
+== Frequently Asked Questions ==
+
+= Does this plugin make all themes compatible with RTL (Right-to-Left)? =
+
+Themes that support RTL are likely to be optimized and localized for RTL by this plugin.
+
+= Which website should we visit for support? =
+
+Support is available through the forum of the author website.
+
+== Screenshots ==
+
+1. RTL-compatible and optimized theme
+2. RTL-compatible and optimized theme
+3. RTL-compatible and optimized theme
+
+== Changelog ==
+= 2.5.2 =
+* Some Bugs Fixed
+
+= 2.5.1 =
+* Whole plugin rewritten
+
+= 2.0.0 =
+* The possibility of specifying font loading
+
+= 1.0.0 =
+* First Version

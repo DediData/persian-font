@@ -1,16 +1,17 @@
+/* Web Font: Yekan */
 @font-face {
-    font-family: 'Yekan';
-    src: url('../fonts/Yekan.eot');
-    src: url('../fonts/Yekan.eot?#iefix') format("embedded-opentype"),
-    url('../fonts/Yekan.woff2') format('woff2'),
-    url('../fonts/Yekan.woff') format('woff'),
-    url('../fonts/Yekan.ttf') format('truetype'),
-	url('../fonts/Yekan.otf') format('opentype'),
-    url('../fonts/Yekan.svg#Yekan') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: yekan;
+	src: url('../../fonts/Yekan.eot'); /* IE9 Compatibility Modes */
+	src: url('../../fonts/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../../fonts/Yekan.woff2') format('woff2'), /* Modern Browsers */
+	url('../../fonts/Yekan.woff') format('woff'), /* Modern Browsers */
+	url('../../fonts/Yekan.otf') format('opentype'), /* Open Type Font */
+	url('../../fonts/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
 }
-
 
 body,
 body *,
@@ -30,7 +31,7 @@ table th,
 table caption,
 table td,
 pre {
-	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-family: yekan, tahoma, verdana, arial, helvetica, sans-serif;
 }
 
 .rtl .quicktags-toolbar input,
@@ -79,12 +80,12 @@ table.diff th,
 .rtl .media-frame .search,
 .media-modal,
 .rtl .media-modal {
-	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-family: yekan, tahoma, verdana, arial, helvetica, sans-serif;
 }
 
 .wp-editor-area,
-.rtl .wp-editor-area{
-	font-family: Yekan, Tahoma, Verdana, Arial, Helvetica, sans-serif !important;
+.rtl .wp-editor-area {
+	font-family: yekan, tahoma, verdana, arial, helvetica, sans-serif !important;
 }
 
 #author-email,

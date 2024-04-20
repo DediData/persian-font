@@ -58,7 +58,7 @@ final class Persian_Font_Options extends \DediData\Singleton {
 		}
 		add_action( 'admin_init',  array( $this, 'register_settings' ) );
 	}
-	
+
 	/**
 	 * Sanitize each setting field as needed
 	 *
@@ -123,14 +123,13 @@ final class Persian_Font_Options extends \DediData\Singleton {
 	public function on_plugin_page_load() {
 		remove_action( 'admin_notices', array( $this, 'add_admin_notices' ) );
 		// We are in the correct screen because we are taking advantage of the load-* action (below)
-		$help_content = '<p>' . esc_html__( "Use this page for RTL localization plugin's settings.", 'persian-font' ) . '</p>'
-			. '';
+		$help_content = '<p>' . esc_html__( 'Use this page to configure RTL localization plugin', 'persian-font' ) . '</p>';
 		$screen       = get_current_screen();
 		// $screen->remove_help_tabs();
 		$screen->add_help_tab(
 			array(
 				'id'      => $this->plugin_slug . '-default',
-				'title'   => esc_html__( 'Guide', 'persian-font' ),
+				'title'   => esc_html__( 'Help', 'persian-font' ),
 				'content' => $help_content,
 			)
 		);
@@ -139,7 +138,7 @@ final class Persian_Font_Options extends \DediData\Singleton {
 		// Help sidebars are optional
 		$screen->set_help_sidebar(
 			'<p><strong>' . esc_html__( 'For more information:', 'persian-font' ) . '</strong></p>'
-			. '<p><a href="' . esc_url( esc_html__( 'https://dedidata.com', 'persian-font' ) ) . '" target="_blank">' . esc_html__( 'Visit DediData', 'persian-font' ) . '</a></p>'
+			. '<p><a href="' . esc_url( esc_html__( 'https://dedidata.com', 'persian-font' ) ) . '" target="_blank">' . esc_html__( 'Visit Our Website!', 'persian-font' ) . '</a></p>'
 		);
 	}
 
@@ -152,7 +151,7 @@ final class Persian_Font_Options extends \DediData\Singleton {
 		?>
 		<div id="notice" class="update-nag">
 			<?php esc_html_e( 'The RTL localization plugin is not configured.', 'persian-font' ); ?>
-			<a href="<?php menu_page_url( $this->plugin_slug, true ); ?>"><?php esc_html_e( 'Please configure it now.', 'persian-font' ); ?></a>
+			<a href="<?php menu_page_url( $this->plugin_slug, true ); ?>"><?php esc_html_e( 'Please configure it now !', 'persian-font' ); ?></a>
 		</div>
 		<?php
 	}
@@ -178,10 +177,11 @@ final class Persian_Font_Options extends \DediData\Singleton {
 			esc_html__( 'Font Loading Settings', 'persian-font' ),
 			// title heading for the section
 			static function ( $args ) {
+				// callback function to display content at the top of the section
 				?>
 		<p id="<?php echo esc_attr( $args['id'] ); ?>"><?php esc_html_e( 'By using the following settings, specify where the fonts should be loaded for different sections of the site.', 'persian-font' ); ?></p>
 				<?php
-			}, // callback function to display content at the top of the section
+			},
 			$this->plugin_slug
 			// plugin slug, created by add_options_page()
 		);
@@ -197,7 +197,7 @@ final class Persian_Font_Options extends \DediData\Singleton {
 						<input type="checkbox" name="persian-font[frontend-font]" id="frontend-font" value="true" <?php checked( true, $check_frontend_font ); ?> />
 						<?php
 					}, // Callback function to echo input tag
-					$this->plugin_slug, 
+					$this->plugin_slug,
 					// plugin slug, created by add_options_page()
 					'load-font-setting', 
 					// slug-name of the section
@@ -220,7 +220,7 @@ final class Persian_Font_Options extends \DediData\Singleton {
 						<input type="checkbox" name="persian-font[backend-font]" id="backend-font" value="true" <?php checked( true, $check_backend_font ); ?> />
 						<?php
 					}, // Callback function to echo input tag
-					$this->plugin_slug, 
+					$this->plugin_slug,
 					// plugin slug, created by add_options_page()
 					'load-font-setting', 
 					// slug-name of the section
@@ -252,12 +252,12 @@ final class Persian_Font_Options extends \DediData\Singleton {
 		<div class="wrap">
 			<h1 class="wp-heading-inline"><?php echo esc_html( $this->page_title ); ?></h1>
 			<form method="post" action="options.php">
-			<p><?php esc_html_e( 'This plugin maximizes the RTL localization of your website and utilizes a proper font for its display.', 'persian-font' ); ?><br />
-			<?php esc_html_e( 'Note that your website theme must support RTL; in this case, you can use many free themes which are available on wordpress.org site for your website.', 'persian-font' ); ?></p>
-			<p><?php esc_html_e( 'Also, this plugin has the capability of better optimizing the administration for RTL and provides better fonts in the administration and editor.', 'persian-font' ); ?></p>
+				<p><?php esc_html_e( 'This plugin maximizes the RTL localization of your website and utilizes a proper font for its display.', 'persian-font' ); ?></p>
+				<p><?php esc_html_e( 'Note that your website theme must support RTL; in this case, you can use many free themes which are available on wordpress.org site for your website.', 'persian-font' ); ?></p>
+				<p><?php esc_html_e( 'Also, this plugin has the capability of better optimizing the administration for RTL and provides better fonts in the administration and editor.', 'persian-font' ); ?></p>
 			<?php
 				submit_button();
-				settings_fields( $this->plugin_slug ); 
+				settings_fields( $this->plugin_slug );
 				// This prints out all hidden setting fields
 				do_settings_sections( $this->plugin_slug );
 				submit_button();

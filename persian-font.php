@@ -2,21 +2,19 @@
 /**
  * Plugin Name: RTL Localization & Fonts
  * Description: Better support for Right To Left languages like Persian, Arabic and Hebrew and Fonts
- * Plugin URI: https://dedidata.com
+ * Plugin URI: https://parsmizban.com
  * Author: DediData
- * Author URI: https://dedidata.com
- * Version: 2.5.4
+ * Author URI: https://parsmizban.com
+ * Version: 2.5.5
  * Requires at least: 6.0
- * Tested up to: 6.4
- * Requires PHP: 7.0
+ * Tested up to: 6.9
+ * Requires PHP: 7.4
  * License: GPL v3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: persian-font
- * 
+ *
  * @package Persian_Font
  */
-
-declare(strict_types=1);
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;

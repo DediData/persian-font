@@ -1,10 +1,10 @@
 === RTL Localization & Fonts ===
-Contributors: dedidata, parsmizban, farhad0
+Contributors: parsmizban, farhad0
 Tags: rtl, rtl support, right to left, rtl plugin, rtl theme
 Requires at least: 6.0
-Tested up to: 6.4
-Requires PHP: 7.0
-Stable tag: 2.5.4
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 2.5.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Donate link: https://dedidata.com
@@ -33,7 +33,7 @@ WordPress One-Page Theme
 * Adding a proper font to the administration editor
 
 Validated by:
-https://wpreadme.com/
+https://wpreadme.com
 https://wordpress.org/plugins/developers/readme-validator
 
 == Installation ==
@@ -41,7 +41,7 @@ https://wordpress.org/plugins/developers/readme-validator
 ### Minimum Requirements
 
 * WordPress 6.0 or greater
-* PHP 7.0 or greater is required (PHP 8.0 or greater is recommended)
+* PHP 7.4 or greater is required (PHP 8.0 or greater is recommended)
 * MySQL 5.6 or greater, OR MariaDB version 10.1 or greater, is required.
 
 ### You can install this plugin in two ways:
@@ -54,7 +54,7 @@ Automatic installation is the easiest option, WordPress will handles the file tr
 2. Navigate to the Plugins menu within your dashboard
 3. click “Add New.”
 4. In the search field type the name of this plugin and then click “Search Plugins.”
-5. Once you’ve found us,  you can view details about it such as the point release, rating, and description.
+5. Once you’ve found us, you can view details about it such as the point release, rating, and description.
 6. Most importantly of course, you can install it by! Click “Install Now,” and WordPress will take it from there.
 7. Activate the plugin from your Plugins page
 
@@ -97,4 +97,4 @@ Support is available through the forum of the author website.
 * The possibility of specifying font loading
 
 = 1.0.0 =
-* First Version
+* First Release
